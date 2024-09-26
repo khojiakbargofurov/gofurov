@@ -13,10 +13,10 @@ function Hero() {
               Ingliz tili bilan kelajak hayotingizni hozirdan quring
             </p>
             <button className="btn btn-info"><Link className="flex" to="/quizes">
-              <img className='w-4' src="/src/assets/thunder.png" alt="thunder" /> Boshlash</Link></button>
+              <img className='w-4' src="/public/assets/thunder.png" alt="thunder" /> Boshlash</Link></button>
           </div>
           <img
-            src="/src/assets/vctrly-startup-build-man.png"
+            src="/public/assets/vctrly-startup-build-man.png"
             className="lg:max-w-sm w-full rounded-lg " />
         </div>
       </div>
