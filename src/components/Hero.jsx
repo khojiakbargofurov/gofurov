@@ -1,7 +1,8 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 import AutoTypingText from './AutoTypingText'
-
+import HeroImage from "/public/vctrly-startup-build-man.png"
+import Thunder from "/public/thunder.png"
 function Hero() {
   return (
     <div>
@@ -13,10 +14,10 @@ function Hero() {
               Ingliz tili bilan kelajak hayotingizni hozirdan quring
             </p>
             <button className="btn btn-info"><Link className="flex" to="/quizes">
-              <img className='w-4' src="/public/thunder.png" alt="thunder" /> Boshlash</Link></button>
+              <img className='w-4' src={Thunder} alt="thunder" /> Boshlash</Link></button>
           </div>
           <img
-            src="/public/vctrly-startup-build-man.png"
+            src={HeroImage}
             className="lg:max-w-sm w-full rounded-lg " />
         </div>
       </div>
