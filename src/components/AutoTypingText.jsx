@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const AutoTypingText = () => {
-  const words = ["darslar", "lug'atlar", "testlar"];
+  const words = ["kitoblar", "lug'atlar", "testlar"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -36,10 +36,10 @@ const AutoTypingText = () => {
   }, [currentText, isDeleting, speed, words, currentWordIndex]);
 
   return (
-    <div className="">
-      <h1 >Ingliz Tilini <span className="opacity-0">veb-saytimizda</span> </h1>
-      <span className="underline">{currentText}</span> <span className="opacity-0">sdns</span>
-      <h1>bilan o'rganing</h1>
+    <div >
+      <h1 className="font-bold">Ingliz Tilini </h1>
+      <span className="font-black" >{currentText}</span> <span className="opacity-0">s</span>
+      <h1 className="font-bold">bilan o'rganing</h1>
     </div>
   );
 };

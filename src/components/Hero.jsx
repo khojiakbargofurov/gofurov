@@ -8,8 +8,8 @@ function Hero() {
     <div>
       <div className="hero bg-base-100 lg:py-20 my-6">
         <div className="hero-content flex-col lg:flex-row ">
-          <div>
-            <h1 className="sm:text-6xl text-3xl font-bold"><AutoTypingText /></h1>
+          <div className='lg:pr-80 md:pr-64'>
+            <h1 className="md:text-6xl sm:text-5xl text-3xl gap-2 "><AutoTypingText /></h1>
             <p className="py-6">
               Ingliz tili bilan kelajak hayotingizni hozirdan quring
             </p>
@@ -18,7 +18,7 @@ function Hero() {
           </div>
           <img
             src={HeroImage}
-            className="lg:max-w-sm w-full rounded-lg " />
+            className="max-w-sm  rounded-lg " />
         </div>
       </div>
     </div>
